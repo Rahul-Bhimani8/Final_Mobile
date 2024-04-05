@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="iStore.Pages.OrderDetailsPage"
+             Title="OrderDetailsPage">
+    <!--  <VerticalStackLayout>
+        <Label 
+            Text="Product Details"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout> -->
+    <ScrollView>
+        <StackLayout VerticalOptions="StartAndExpand">
+            <Frame BorderColor="Black" CornerRadius="5" Padding="5" Margin="5" >
+                <Grid>
+                    <Image Source="dairymilk.png"
+                   Aspect="AspectFill"
+                   Margin="5"
+                   WidthRequest="100"
+                   HeightRequest="210"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnProductTapped" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <StackLayout VerticalOptions="Start"
+                         Margin="20"
+                         HorizontalOptions="CenterAndExpand">
+                        <Label Text="Product Name: Dairy Milk"
+                       FontAttributes="Bold"
+                       VerticalOptions="Start" />
+                        <Label Text="Price: $9.99"
+                       VerticalOptions="Start" />
+                        <Label Text="Weight: 200 G"
+                        VerticalOptions="Start" />
+                        <Label Text="Serial No: #SUK879T"
+                       VerticalOptions="Start" />
+                        <Label Text="Category: Nestle"
+                       VerticalOptions="Start" />
+                        <Label Text="Units in Stock: 100"
+                       VerticalOptions="Start" />
+                        <Label Text="Purchase Date: 01/01/2024"
+                       VerticalOptions="Start" />
+                        <Label Text="Expire Date: 31/05/2027"
+                       VerticalOptions="Start" />
+                    </StackLayout>
+                </Grid>
+            </Frame>
+
+            <Frame BorderColor="Black" CornerRadius="5" Padding="5" Margin="5">
+                <Grid>
+                    <Image Source="Lays.png"
+                   Aspect="AspectFill"
+                   Margin="5"
+                   WidthRequest="170"
+                   HeightRequest="210"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start" />
+                    <StackLayout VerticalOptions="Start"
+                         Margin="20"
+                         HorizontalOptions="CenterAndExpand">
+                        <Label Text="Product Name: Magic Masala Lays"
+                       FontAttributes="Bold"
+                       VerticalOptions="Start" />
+                        <Label Text="Price: $6.99"
+                       VerticalOptions="Start" />
+                        <Label Text="Serial No: #MG19HT"
+                       VerticalOptions="Start" />
+                        <Label Text="Weight: 165 G"
+                        VerticalOptions="Start" />
+                        <Label Text="Category: Lays"
+                       VerticalOptions="Start" />
+                        <Label Text="Units in Stock: 54"
+                       VerticalOptions="Start" />
+                        <Label Text="Purchase Date: 01/02/2024"
+                       VerticalOptions="Start" />
+                        <Label Text="Expire Date: 12/09/2028"
+                       VerticalOptions="Start" />
+                    </StackLayout>
+                </Grid>
+            </Frame>
+            <Frame BorderColor="Black" CornerRadius="5" Padding="5" Margin="5">
+                <Grid>
+                    <Image Source="milk.PNG"
+           Aspect="AspectFill"
+           Margin="5"
+           WidthRequest="170"
+           HeightRequest="210"
+           VerticalOptions="Start"
+           HorizontalOptions="Start" />
+                    <StackLayout VerticalOptions="Start"
+                 Margin="20"
+                 HorizontalOptions="CenterAndExpand">
+                        <Label Text="Product Name: Nateral Milk"
+               FontAttributes="Bold"
+               VerticalOptions="Start" />
+                        <Label Text="Price: $7.29"
+               VerticalOptions="Start" />
+                        <Label Text="Serial No: #RA6587L"
+               VerticalOptions="Start" />
+                        <Label Text="Category: Dairy"
+               VerticalOptions="Start" />
+                        <Label Text="Units in Stock: 30"
+               VerticalOptions="Start" />
+                        <Label Text="Purchase Date: 03/03/2024"
+               VerticalOptions="Start" />
+                        <Label Text="Expire Date: 20/03/2024"
+               VerticalOptions="Start" />
+                    </StackLayout>
+                </Grid>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

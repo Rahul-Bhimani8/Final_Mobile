@@ -1,0 +1,121 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = iStore
+build_property.ProjectDir = C:\Users\Research\source\repos\iStore2\iStore\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Research/source/repos/iStore2/iStore/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = iStore.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Research/source/repos/iStore2/iStore/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = iStore.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Research/source/repos/iStore2/iStore/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = iStore.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Research/source/repos/iStore2/iStore/Pages/CartorderPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = iStore.Pages.CartorderPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CartorderPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CartorderPage.xaml
+
+[C:/Users/Research/source/repos/iStore2/iStore/Pages/DetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = iStore.Pages.DetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\DetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\DetailsPage.xaml
+
+[C:/Users/Research/source/repos/iStore2/iStore/Pages/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = iStore.Pages.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\HomePage.xaml
+
+[C:/Users/Research/source/repos/iStore2/iStore/Pages/MyOrdersPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = iStore.Pages.MyOrdersPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MyOrdersPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MyOrdersPage.xaml
+
+[C:/Users/Research/source/repos/iStore2/iStore/Pages/NotificationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = iStore.Pages.NotificationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\NotificationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\NotificationPage.xaml
+
+[C:/Users/Research/source/repos/iStore2/iStore/Pages/OnboardingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = iStore.Pages.OnboardingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\OnboardingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\OnboardingPage.xaml
+
+[C:/Users/Research/source/repos/iStore2/iStore/Pages/OrderDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = iStore.Pages.OrderDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\OrderDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\OrderDetailsPage.xaml
+
+[C:/Users/Research/source/repos/iStore2/iStore/Pages/Product.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = iStore.Pages.Product.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Product.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Product.xaml
+
+[C:/Users/Research/source/repos/iStore2/iStore/Pages/ProductPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = iStore.Pages.ProductPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ProductPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ProductPage.xaml
+
+[C:/Users/Research/source/repos/iStore2/iStore/Pages/ProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = iStore.Pages.ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ProfilePage.xaml
+
+[C:/Users/Research/source/repos/iStore2/iStore/Pages/SearchPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = iStore.Pages.SearchPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SearchPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SearchPage.xaml
+
+[C:/Users/Research/source/repos/iStore2/iStore/Pages/SigninPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = iStore.Pages.SigninPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SigninPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SigninPage.xaml
+
+[C:/Users/Research/source/repos/iStore2/iStore/Pages/SignupPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = iStore.Pages.SignupPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SignupPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SignupPage.xaml
+
+[C:/Users/Research/source/repos/iStore2/iStore/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = iStore.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Research/source/repos/iStore2/iStore/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = iStore.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

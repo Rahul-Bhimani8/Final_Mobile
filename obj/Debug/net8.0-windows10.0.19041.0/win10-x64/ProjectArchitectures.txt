@@ -1,0 +1,1 @@
+C:\Users\Research\source\repos\iStore2\iStore\iStore.csproj;x64

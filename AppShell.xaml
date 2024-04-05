@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="iStore.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:local="clr-namespace:iStore"
+    xmlns:pages="clr-namespace:iStore.Pages"
+    Shell.FlyoutBehavior="Flyout"
+    Title="iStore">
+
+    <Shell.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="DeepPink"
+                                   StatusBarStyle="LightContent"/>
+    </Shell.Behaviors>
+   <!-- <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" /> -->
+
+    <ShellContent ContentTemplate="{DataTemplate pages:OnboardingPage}"
+                  Shell.FlyoutBehavior="Disabled"
+                  Shell.FlyoutItemIsVisible="False"/>
+    
+    <TabBar FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate pages:HomePage}"
+            Icon="home"
+            Route="HomePage"
+            Shell.NavBarIsVisible="False"/>
+        <ShellContent
+            Title="Product"
+            ContentTemplate="{DataTemplate pages:OrderDetailsPage}"
+            Icon="cart"
+            Route="Product"/>
+        <ShellContent
+            Title="My Profile"
+            ContentTemplate="{DataTemplate pages:ProfilePage}"
+            Icon="profile"
+            Route="ProfilePage"/>
+
+    </TabBar>
+
+    <MenuItem IconImageSource="logout" Text="Sigout" Clicked="SignoutMenuItem_Clicked"/>
+    <Shell.MenuItemTemplate>
+        <DataTemplate>
+            <Grid ColumnDefinitions="Auto, *"
+                  RowSpacing="5"
+                  Padding="10"
+                  ColumnSpacing="15">
+                <Image 
+                Grid.Row="0"
+                Grid.Column="0"
+                HeightRequest="24"
+                Source="{Binding Icon}"
+                WidthRequest="24">
+                    <Image.Behaviors>
+                        <toolkit:IconTintColorBehavior TintColor="DeepPink"/>
+                    </Image.Behaviors>
+                </Image>
+                <Label 
+                Grid.Row="0"
+                Grid.Column="1" 
+                Text="{Binding Text}"
+                TextColor="DeepPink"
+                FontSize="16"/>
+            </Grid>
+        </DataTemplate>
+    </Shell.MenuItemTemplate>
+    
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <Grid ColumnDefinitions="Auto, *, Auto"
+                  RowDefinitions="Auto, Auto"
+                  RowSpacing="5"
+                  Padding="10"
+                  ColumnSpacing="15">
+                <Image 
+                    Grid.Row="0"
+                   Grid.Column="0"
+                   HeightRequest="24"
+                   Source="{Binding FlyoutIcon}"
+                   WidthRequest="24">
+                    <Image.Behaviors>
+                        <toolkit:IconTintColorBehavior TintColor="DeepPink"/>
+                    </Image.Behaviors>
+                </Image>
+                <Label 
+                     Grid.Row="0"
+                       Grid.Column="1" 
+                       Text="{Binding Title}"
+                       TextColor="DeepPink"
+                       FontSize="16"/>
+                <Image 
+                        Grid.Row="0"
+                        Grid.Column="2"
+                       Source="arrow"
+                       WidthRequest="24">
+                    <Image.Behaviors>
+                        <toolkit:IconTintColorBehavior TintColor="DeepPink"/>
+                    </Image.Behaviors>
+                </Image>
+                <BoxView Grid.Row="1"
+                         Grid.ColumnSpan="3"
+                         HeightRequest="1"
+                         Color="Pink"/>
+            </Grid>
+        </DataTemplate>
+    </Shell.ItemTemplate>
+    <Shell.FlyoutHeader>
+        <Border BackgroundColor="DeepPink"
+                Padding="10"
+                StrokeThickness="0">
+            <VerticalStackLayout HorizontalOptions="Center">
+                <Image Source="logo"
+                       HeightRequest="200"
+                       WidthRequest="200"
+                       HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+        </Border>
+    </Shell.FlyoutHeader>
+    
+    <Shell.FlyoutFooter>
+        <Border BackgroundColor="DeepPink"
+                StrokeThickness="0"
+                Padding="7">
+            <Label 
+                FontAttributes="Bold"
+                FontSize="15"
+                HorizontalOptions="Center"
+                TextColor="White"
+                Text="Developed by @iStoreGuard Developers"/>
+            <Border.GestureRecognizers Tapped="FlyoutFooter_Tapped">
+                
+            </Border.GestureRecognizers>
+                                   
+        </Border>
+    </Shell.FlyoutFooter>
+</Shell>
